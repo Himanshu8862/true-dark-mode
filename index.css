@@ -1,0 +1,21 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    font-size: 20px;
+    user-select: none;
+    overflow-y: auto;
+}
